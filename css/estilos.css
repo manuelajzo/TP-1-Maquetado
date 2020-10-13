@@ -1,0 +1,405 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: ghostwhite;
+}
+
+
+#volver {
+    position: fixed;
+    bottom: 30px;
+    width: 1200px;
+}
+
+#volver a{
+    margin-right: -150px;
+    height: 50px;
+    width: 50px;
+    float: right;
+    background-image: url(../img/button.png);
+    background-repeat: no-repeat;
+    font-size: 0px;
+}
+
+.menu{
+    width: 960px;
+    height: 135px;
+    background-image: url(../img/logo1.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px 50px;
+    margin: auto;
+    
+}
+
+.secciones a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 16px;    
+}
+
+.secciones a:hover{
+    color: cornflowerblue;
+}
+
+.secciones li {
+    float: right;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    margin: 100px 10px;
+    display: flex;
+}
+
+.contenedor{
+    width: 100%;
+    height: 430px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/guggen1.jpg);
+    
+}
+
+
+.intro{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-flow:column wrap;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.intro p{
+    font-size: 18px;
+    width: 100%;
+    padding: 5px 0;
+    background-color: rgba(255, 255, 255, 0.4);
+    max-width: 470px;
+}
+
+.intro h1{
+    font-size: 30px;
+    color: black;
+    width: 100%;
+  padding: 30px 0;
+  background-color: rgba(255, 255, 255, 0.4);
+  max-width: 470px;
+}
+
+
+.info{
+    height: 490px;
+    width: 960px;
+    margin: auto;
+    margin-top: 45px;
+    /* border: 1px solid crimson; */
+}
+
+.info h2{
+    text-transform: uppercase;
+}
+
+#columna-der{
+    width: 470px;
+    height: 490px;
+    display: inline-block;
+    /* border: 1px solid crimson; */
+    padding-top: 0;
+    margin-top: 0;
+    float: right;
+}
+
+#columna-izq{
+    width: 470px;
+    height: 490px;
+    display: inline-block;
+    margin-top: 0px;
+    /* border: 1px solid crimson; */
+    float: left;
+}
+
+#columna-izq h3{
+    margin-top: 100px;
+}
+
+#horario{
+    padding-top: 25px;
+}
+
+#museo{
+    padding-top: 60px;
+}
+
+.fotomuseoinfogral{
+    width: 409px;
+    height: 233px;
+    /* border-color: crimson; */
+    /* border: 1px solid crimson; */
+    margin: auto auto;
+    margin-top: 28px;
+}
+
+#tickets{
+    margin-top: 43px;
+}
+
+#taquilla{
+    padding-top: 25px;
+}
+
+.separador1{
+    width: 100%;
+    height: 188px;
+}
+
+.coleccion{
+    height: 1055px;
+    width: 960px;
+    padding-top: 53px;
+    margin: auto;
+    padding-bottom: 44px;
+    position: relative;
+    overflow: hidden;
+}
+
+.coleccion h2{
+    text-transform: uppercase;
+}
+
+.columna-izq-coleccion{
+    width: 470px;
+    height: 200px;
+    display: inline-block;
+    float: left;
+}
+
+.columna-der-coleccion{
+    width: 470px;
+    height: 200px;
+    display: inline-block;
+    float: right;
+}
+
+#coleccion-izq{
+    margin-top: 47px;
+}
+
+#coleccion-der{
+    margin-top: 80px;
+}
+
+#pintura-coleccion{
+    width: 960px;
+    /* height: 322px; */
+    /* padding-top: 40px;
+    padding-bottom: 50px; */
+    position: relative;
+}
+
+#pintura-coleccion p{
+    font-style: italic;
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+
+.imprescindibles{
+    width: 960px;
+    height: 361px;
+    margin: auto;
+    display: inline-block;
+    /* padding-top: 53px; */
+    position: relative;
+}
+
+.imprescindibles p{
+    font-size: 14px;
+    font-style: italic;
+}
+
+.imprescindibles h3{
+    text-transform: uppercase;
+}
+
+.cont-filas{
+    padding-bottom: 10px   ;
+}
+
+.fila{
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    margin-top: 45px;
+}
+
+.separador2{
+    width: 100%;
+    /* height: 200px; */
+    /* margin-bottom: 15px; */
+}
+
+.fondo{
+    height: 1560px;
+    width: 100%;
+    background-image: url(../img/fondoedificio.jpg);
+    margin-top: 15px;
+    /* position: absolute; */
+}
+
+.edificio{
+    width: 960px;
+    height: 1530px;
+    background-color: ghostwhite;
+    position: relative;
+    margin: 0px auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    /* margin-left: auto;
+    margin-right: auto;
+    border: solid 15px transparent; */
+    justify-content: center;
+    display: flex;
+}
+
+.edificio-izq{
+    width: 470px;
+    height: 1530px;
+    display: inline-block;
+    float: left;
+}
+
+.edificio-der{
+    width: 470px;
+    height: 1530px;
+    display: inline-block;
+    float: right;
+}
+.edificio h2{
+    text-transform: uppercase;
+}
+.fotosedificio img{
+    display: block;
+    margin: auto;
+    margin-bottom: 62px;
+}
+
+#edif{
+    padding-bottom: 35px;
+}
+
+.edificio-izq p{
+    padding-bottom: 20px;
+}
+
+#primerp{
+    padding-top: 68px;
+}
+
+#guggen3{
+    margin-top: 127px;
+}
+
+#interior{
+    padding-top: 64px;
+}
+
+
+.separador3{
+    width: 100%;
+    height: 186px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.misdatos{
+    background-image: url(../img/fondo3.jpg);
+    margin-top: 22px;
+    width: 100%;    
+}
+
+.cont-datos{
+    display: flex;
+}
+.misdatos h2{
+    text-transform: uppercase;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 15px; 
+}
+
+
+.mifoto{
+    width: 596px;
+    height: 729px;
+    /* margin: auto; */
+    border: solid 10px #ced4db;
+    
+}
+
+.misdatos ul{
+    text-align: center;
+    font-size: 20px;
+}
+
+.datos{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    vertical-align: bottom;
+}
+
+.misdatos li{
+    display: inline-block;
+    width: 450px;
+    text-align: center;
+    /* border: solid 5px black;   */
+    margin: 0 auto;  
+    list-style: none;
+}
+
+
+.links{
+    background-color: #ced4db; 
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.links ul{
+    display: flex;
+    list-style: none;
+    margin: auto;
+    justify-content: center;
+}
+
+.links li{
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+.links a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.links a:visited{
+    color: black;
+}
+
+.links a:hover{
+    color: cornflowerblue;
+}
+
+.links h3{
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
